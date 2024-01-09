@@ -1,18 +1,11 @@
-# kafka-docker-compose
-
-
+# kafka
 ```
-yarn
-
-or
-
-npm i
+    docker-compose -p local-kafka -f docker-compose.kafka.yml up
+    // kafka-ui web => localhost:10000 
 ```
 
+
+# redis-cluster
 ```
-yarn kafka
-
-or
-
-npm run kafka
+    docker-compose -p local-redis-cluster -f docker-compose.redis-cluster.yml up
 ```
